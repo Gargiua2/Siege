@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0deacc02df8bb6e418d2eb447c7b22f9, type: 3}
+  m_Name: Wave 8
+  m_EditorClassIdentifier: 
+  subwaves:
+  - time: 0
+    trickleLength: 4
+    groups:
+    - enemy: {fileID: 7893135899415018084, guid: cd0b70b738e90354ebbc00d059075a22, type: 3}
+      amount: {x: 8, y: 10}
+    invoked: 0
+    completed: 0
+  - time: 8
+    trickleLength: 4
+    groups:
+    - enemy: {fileID: 5297406584465821854, guid: 4b28d1cf91a8e8249bfa4af98684a061, type: 3}
+      amount: {x: 10, y: 13}
+    invoked: 0
+    completed: 0
+  - time: 16
+    trickleLength: 10
+    groups:
+    - enemy: {fileID: 6686352911470757615, guid: f7451410aa018de448a4c98327ea7475, type: 3}
+      amount: {x: 20, y: 25}
+    invoked: 0
+    completed: 0
+  - time: 16
+    trickleLength: 10
+    groups:
+    - enemy: {fileID: 6686352911470757615, guid: f7451410aa018de448a4c98327ea7475, type: 3}
+      amount: {x: 10, y: 20}
+    invoked: 0
+    completed: 0
+  - time: 24
+    trickleLength: 10
+    groups:
+    - enemy: {fileID: 6686352911470757615, guid: f7451410aa018de448a4c98327ea7475, type: 3}
+      amount: {x: 20, y: 25}
+    invoked: 0
+    completed: 0
